@@ -153,9 +153,10 @@ We pin OCPS profiles to IPFS for verifiable decentralization snapshots:
 
 ### DAO Nutrition Label
 <p align="center">
+  <img src="visuals/metal-blockchain-ocps-v0.1.2_Nutrition_Label_1.JPG" width="300">
   <img src="visuals/Sample_DAO_Label.png" alt="DAO Nutrition Label" width="300">
   <img src="visuals/DAO_SAMPLE_2.jpeg" alt="DAO Nutrition Label 2" width="300">
-  <img src="visuals/DAO_Nutrition_Label.PNG" alt="DAO Nutrition Label 3" width="300">
+  <img src="visuals/metal-blockchain-ocps-v0.1.2_Nutrition_Label_7.JPG" width="300">
 </p>
 
 ---
