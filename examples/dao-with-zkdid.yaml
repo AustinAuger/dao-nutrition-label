@@ -1,0 +1,16 @@
+dao_profile:
+  name: Example Regulated DAO
+  standard: dao-nutrition-label
+  version: v0.1
+
+extensions:
+  - dao-nutrition-label-zkdid-extension
+
+access_control:
+  description: >
+    This DAO restricts participation using zero-knowledge
+    identity proofs without revealing personal data.
+
+  requires:
+    - zk_claim: age_over(18)
+    - zk_claim: not_sanctioned
