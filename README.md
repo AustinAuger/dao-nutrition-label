@@ -58,9 +58,21 @@
 ---
 
 ## Standards Alignment
-OCPS aligns with broader DAO transparency initiatives like [EIP-4824](https://eips.ethereum.org/EIPS/eip-4824), which defines a `dao://` URI scheme for discovering DAO metadata. While EIP-4824 focuses on *where* DAO metadata lives, OCPS focuses on *what* decentralization metrics are transparently measured and certified for DAOs.
+The DAO Nutrition Label aligns with broader DAO transparency initiatives like [EIP-4824](https://eips.ethereum.org/EIPS/eip-4824), which defines a `dao://` URI scheme for discovering DAO metadata. While EIP-4824 focuses on *where* DAO metadata lives, The DAO Nutrition Label focuses on *what* decentralization metrics are, and how they are transparently measured and certified for DAOs.
 
-Future versions of OCPS will explore JSON-LD export for cross-chain `dao://` discoverability, enabling aligned, chain-agnostic DAO transparency while building community-driven certification tooling in the Metal Blockchain ecosystem.
+Future versions of The DAO Nutrition Label will explore JSON-LD export for cross-chain `dao://` discoverability, enabling aligned, chain-agnostic DAO transparency while building community-driven certification tooling in the Metal Blockchain ecosystem.
+
+## The DAO Nutrition Label Extensions
+
+This repository also defines optional DAO Nutrition Label extensions that may be
+referenced by DAO profiles or blockchain governance frameworks.
+
+### Available Extensions
+
+- **dao-nutrition-label-zkdid-extension (v0.1)**  
+  Enables zero-knowledge verification of decentralized identity (DID)
+  claims for privacy-preserving, compliance-ready smart contract access
+  and regulated finance use cases.
 
 ---
 
@@ -124,7 +136,7 @@ This repository is licensed under the terms described in the [LICENSE file](./LI
 ---
 
 [## IPFS Transparency
-We pin OCPS profiles to IPFS for verifiable decentralization snapshots:  
+We pin DAO Nutrition Label profiles to IPFS for verifiable decentralization snapshots:  
 - **Current CID:** `bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
 - **View on IPFS Gateway:**  
   - [dweb.link](https://dweb.link/ipfs/bafybeifjpj2lqibtgmwv7u7e5lonzbriz2zq4wiyuyp267lelnbzohpvwm)  
@@ -162,12 +174,12 @@ We pin OCPS profiles to IPFS for verifiable decentralization snapshots:
 ---
 
 ## Next Milestone
-We are preparing for **OCPS v0.2** to include:  
+We are preparing for **DAO Nutrition Label v0.2** to include:  
 - DAO Nutrition Label standardization  
 - GitHub Actions for automated IPFS pinning and attestation log updates  
 - Contributor workflow for submitting DAO transparency profiles  
 - Expanded documentation for on-chain attestation tutorials  
 - Community education assets for X, GitHub, and DAO forums  
 
-Ready to certify transparency together!
+Ready to certify transparency together! 
 
