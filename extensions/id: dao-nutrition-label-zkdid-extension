@@ -1,5 +1,5 @@
 extension:
-  id: ocps-zkdid-extension
+  id: dao-nutrition-label-zkdid-extension
   name: DAO Nutrition Label zk-DID Extension
   version: v0.1
   namespace: dao-nutrition-label
