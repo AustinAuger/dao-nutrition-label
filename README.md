@@ -74,6 +74,14 @@ referenced by DAO profiles or blockchain governance frameworks.
   claims for privacy-preserving, compliance-ready smart contract access
   and regulated finance use cases.
 
+  ### Examples
+
+- **DAO with zk-DID access control**  
+  Demonstrates how a DAO can use the DAO Nutrition Label zk-DID
+  extension to enforce age and sanctions compliance using
+  zero-knowledge proofs.  
+  → `examples/dao-with-zkdid.yaml`
+
 ---
 
 ## Contributing
