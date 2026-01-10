@@ -1,0 +1,48 @@
+extension:
+  id: ocps-zkdid-extension
+  name: Zero Knowledge DID Extension
+  version: v0.1
+  status: draft
+  base_profile: ocps-core
+  compatible_with:
+    - metal-blockchain-ocps >= v0.1.2
+    - proton-did-schema >= v2.0
+  author:
+    name: Austin Auger
+    github: AustinAuger
+  description: >
+    OCPS extension enabling zero-knowledge cryptographic
+    verification of decentralized identity (DID) claims
+    for privacy-preserving, compliance-ready applications.
+
+purpose:
+  - privacy_preserving_identity
+  - regulatory_compliance
+  - smart_contract_access_control
+
+zk_claims:
+  - name: age_over
+    description: Proof subject age exceeds a threshold
+    parameters:
+      threshold: integer
+
+  - name: jurisdiction_allowed
+    description: Proof subject jurisdiction is permitted
+    parameters:
+      jurisdiction_codes: list<string>
+
+  - name: not_sanctioned
+    description: Proof subject is not on sanctions list
+
+verifier:
+  contract: zkDidVerifier
+  network: metal-blockchain
+  verification_mode: on_chain
+
+revocation:
+  method: merkle_root
+  issuer_updates: periodic
+
+audit:
+  mode: zero_knowledge
+  disclosure: aggregate_only
