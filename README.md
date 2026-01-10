@@ -191,3 +191,44 @@ We are preparing for **DAO Nutrition Label v0.2** to include:
 
 Ready to certify transparency together! 
 
+---
+
+## Extensions
+
+- **DAO Nutrition Label zk-DID Extension (v0.1)**  
+  Enables zero-knowledge verification of decentralized identity (DID) claims
+  for privacy-preserving compliance and smart contract access control.  
+  File: `extensions/dao-nutrition-label-zkdid-extension-v0.1.yaml`
+
+---
+
+## Examples
+
+- **DAO with zk-DID access control**  
+  Demonstrates how a DAO can use the DAO Nutrition Label zk-DID extension
+  to enforce age and sanctions compliance using zero-knowledge proofs.  
+  File: `examples/dao-with-zkdid.yaml`
+
+---
+
+## License
+
+This project is licensed under the terms described in the [LICENSE](./LICENSE) file.
+
+---
+
+## Contributing (optional)
+
+If you want to contribute, please open a pull request or submit an issue
+with a clear description. Contributions should follow the DAO Nutrition Label
+format and maintain proper YAML and Markdown standards.
+
+---
+
+## Documentation (optional)
+
+Additional documentation and specifications are available in the
+`docs/` folder or via GitHub Pages if enabled.
+
+
+
