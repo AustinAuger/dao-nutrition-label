@@ -45,6 +45,7 @@ Every profile helps the entire Metal Blockchain community!
 ---
 
 ## DAO Profile Template
+
 ```yaml
 dao_name: ExampleDAO
 chain: Metal Blockchain (XPR Network)
@@ -65,3 +66,60 @@ transparency:
   attestor: austinauger
 notes: >
   This is a sample DAO profile submission for contributors to copy and adapt.
+Extensions
+dao-nutrition-label-zkdid-extension (v0.1)
+Zero-knowledge DID verification for age/sanctions compliance while staying privacy-first.
+→ extensions/dao-nutrition-label-zkdid-extension-v0.1.yaml
+```
+## Examples
+**DAO with zk-DID access control**  
+→ [`examples/dao-with-zkdid.yaml`](./examples/dao-with-zkdid.yaml)
+
+---
+
+## IPFS & On-Chain Transparency
+- Sample Profile IPFS CID: `bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
+- Live Visual Label: [View on IPFS](https://dweb.link/ipfs/bafybeifjpj2lqibtgmwv7u7e5lonzbriz2zq4wiyuyp267lelnbzohpvwm)  
+- On-chain Attestation (XPR Network): [Explorer Link](https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349)  
+  Attestor: austinauger
+
+---
+
+## Visuals
+![DAO Nutrition Label](visuals/dao-nutrition-label-hero.png)  
+[📁 Open visuals folder](./visuals/)
+
+---
+
+## Docs
+- [Vision](docs/vision_doc.md)  
+- [Public Explainer](docs/public_explainer.md)  
+- [v0.2 Roadmap](docs/v0.2_roadmap.md)
+
+---
+
+## Next Milestone – v0.2
+- Automated GitHub Actions for IPFS pinning & attestation  
+- Expanded contributor tooling  
+- Community education assets  
+- Full standardization of the visual label
+
+---
+
+## Contributing
+Pull requests and issues are welcome!  
+**Best way to start:** Submit your DAO profile using the 10-minute guide above.  
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details.
+
+---
+
+## License
+This project is licensed under [Creative Commons Attribution 4.0 International](./LICENSE).
+
+---
+
+**🚀 Ready to make your DAO transparent?**  
+**Submit your DAO profile in 10 minutes →** [`profiles/`](./profiles/)
+
+Every profile counts. Let’s build trust together on Metal Blockchain& Beyond!🤘
