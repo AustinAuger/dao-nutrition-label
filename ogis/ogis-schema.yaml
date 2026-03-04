@@ -1,0 +1,39 @@
+ogis_version: "0.1"
+
+proposal:
+  id: ""
+  title: ""
+  governance_contract: ""
+  voting_period:
+    start_block: ""
+    end_block: ""
+
+capital_metrics:
+  total_tokens_voted: 0
+  participation_rate_percent: 0
+  top_5_wallet_concentration_percent: 0
+  quorum_required: 0
+
+identity_metrics:
+  identity_verification_enabled: false
+  verified_voter_percent: 0
+  anonymous_voter_percent: 0
+
+signal_integrity:
+  sentiment_integration_enabled: false
+  narrative_velocity_score: null
+  bot_probability_score: null
+  influencer_concentration_ratio: null
+  integrity_confidence_score: null
+
+advisory_integrity_view:
+  integrity_adjusted_outcome: null
+  divergence_from_raw_percent: null
+
+treasury_exposure:
+  treasury_impact_classification: "low | moderate | high"
+  projected_capital_exposure_percent: 0
+
+metadata:
+  generated_timestamp: ""
+  data_sources: []
