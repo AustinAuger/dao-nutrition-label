@@ -1,0 +1,42 @@
+ogis_version: "0.1"
+
+proposal:
+  id: "MDAO-122"
+  title: "Enable Asset Listing: Example Token"
+  governance_contract: "0xABC123..."
+  voting_period:
+    start_block: 19823422
+    end_block: 19898422
+
+capital_metrics:
+  total_tokens_voted: 2100000
+  participation_rate_percent: 41
+  top_5_wallet_concentration_percent: 38
+  quorum_required: 30
+
+identity_metrics:
+  identity_verification_enabled: true
+  verified_voter_percent: 27
+  anonymous_voter_percent: 73
+
+signal_integrity:
+  sentiment_integration_enabled: true
+  narrative_velocity_score: 72
+  bot_probability_score: 0.04
+  influencer_concentration_ratio: 0.31
+  integrity_confidence_score: 0.92
+
+advisory_integrity_view:
+  integrity_adjusted_outcome: "PASS"
+  divergence_from_raw_percent: 6
+
+treasury_exposure:
+  treasury_impact_classification: "moderate"
+  projected_capital_exposure_percent: 12
+
+metadata:
+  generated_timestamp: "2026-03-04T10:30:00Z"
+  data_sources:
+    - "On-chain governance contract"
+    - "WebAuth verification registry"
+    - "LunarCrush sentiment API"
