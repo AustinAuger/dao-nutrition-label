@@ -41,7 +41,8 @@ OGIS extends the DAO Nutrition Label concept by introducing structured disclosur
 - Governance risk exposure  
 
 View the full standard here:  
-👉 ./ogis/README.md
+View the full standard:  
+👉 [Open Governance Integrity Standard (OGIS)](./ogis/README.md)
 
 ---
 
