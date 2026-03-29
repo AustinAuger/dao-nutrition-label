@@ -28,20 +28,19 @@ Built on the **OpenChain Profile Standard (OCPS v0.1.2)** with visual “nutriti
 
 ---
 
-## Governance Integrity Standard (OGIS)
+## OGIS — Integrity & Data Layer
 
-This repository also includes the **Open Governance Integrity Standard (OGIS)** — a voluntary framework for reporting governance transparency and integrity metrics in decentralized systems.
+The DAO Nutrition Label is supported by the **Open Governance Integrity Standard (OGIS)**, a structured framework for reporting governance transparency and integrity metrics.
 
-OGIS extends the DAO Nutrition Label concept by introducing structured disclosures around:
+OGIS provides the underlying data model and reporting schema that powers the DAO Nutrition Label, including:
 
-- Capital concentration  
-- Participation rates  
-- Identity verification (optional)  
-- Sentiment and narrative integrity (optional)  
+- Capital concentration metrics  
+- Participation data  
+- Identity distribution (optional)  
+- Sentiment integrity indicators (optional)  
 - Governance risk exposure  
 
 View the full standard here:  
-View the full standard:  
 👉 [Open Governance Integrity Standard (OGIS)](./ogis/README.md)
 
 ---
