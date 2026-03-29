@@ -24,7 +24,24 @@ Built on the **OpenChain Profile Standard (OCPS v0.1.2)** with visual “nutriti
 - ✅ IPFS pinned transparency certificates  
 - ✅ On-chain attestation on XPR Network  
 - ✅ zk-DID extension for privacy-preserving compliance  
-- ✅ Aligned with EIP-4824 for cross-chain discoverability  
+- ✅ Aligned with EIP-4824 for cross-chain discoverability
+
+---
+
+## Governance Integrity Standard (OGIS)
+
+This repository also includes the **Open Governance Integrity Standard (OGIS)** — a voluntary framework for reporting governance transparency and integrity metrics in decentralized systems.
+
+OGIS extends the DAO Nutrition Label concept by introducing structured disclosures around:
+
+- Capital concentration  
+- Participation rates  
+- Identity verification (optional)  
+- Sentiment and narrative integrity (optional)  
+- Governance risk exposure  
+
+View the full standard here:  
+👉 ./ogis/README.md
 
 ---
 
