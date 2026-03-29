@@ -1,5 +1,38 @@
 # Open Governance Integrity Standard (OGIS) v0.1
 
+## What is OGIS?
+
+OGIS is a voluntary reporting standard for decentralized governance.
+
+It helps DAOs, institutions, and stakeholders understand not just *how votes were cast*, but *how trustworthy and resilient those votes were*.
+
+OGIS does not change voting power.
+
+Instead, it provides additional transparency around:
+
+- Capital concentration
+- Voter participation
+- Identity distribution (optional)
+- Social sentiment integrity (optional)
+- Governance risk exposure
+
+Think of OGIS as a “governance integrity layer” that sits alongside traditional token voting.
+
+---
+
+## Why OGIS Matters
+
+As decentralized governance evolves, new risks are emerging:
+
+- A small number of wallets controlling outcomes  
+- Coordinated social media influence campaigns  
+- Low participation masking governance decisions  
+- Difficulty assessing proposal risk  
+
+OGIS introduces a structured way to **measure and disclose these risks** without interfering with decentralization.
+
+This makes governance more understandable, auditable, and institution-ready.
+
 ## Executive Overview
 
 The Open Governance Integrity Standard (OGIS) is a voluntary transparency framework designed to enhance accountability and integrity within decentralized governance systems.
