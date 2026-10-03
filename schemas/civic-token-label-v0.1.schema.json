@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AustinAuger/dao-nutrition-label/blob/main/schemas/civic-token-label-v0.1.schema.json",
+  "title": "Civic Token Nutrition Label",
+  "description": "An evidence-first, machine-readable transparency label for digital assets with a documented connection to a public official, public office, civic institution, or public governance system.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "asset",
+    "issuer",
+    "civic_context",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.1"
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "symbol",
+        "network"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "symbol": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "network": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contract": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "token_standard": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "account": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "display_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issuance_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "issuance_transaction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "initial_supply": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subsequent_issuance": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "civic_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "public_official": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "office": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "jurisdiction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "role_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "legal_checkpoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "law",
+          "status"
+        ],
+        "properties": {
+          "law": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "unverified",
+              "not_applicable",
+              "disputed"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "status"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "unverified",
+              "not_found",
+              "disputed"
+            ]
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "transaction": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
