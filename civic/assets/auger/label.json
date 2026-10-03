@@ -1,0 +1,70 @@
+{
+  "$schema": "https://github.com/AustinAuger/dao-nutrition-label/blob/main/schemas/civic-token-label-v0.1.schema.json",
+  "schema_version": "0.1",
+  "asset": {
+    "name": "AUGER",
+    "symbol": "AUGER",
+    "network": "XPR Network",
+    "contract": null,
+    "token_standard": null
+  },
+  "issuer": {
+    "account": "austinauger",
+    "display_name": "Austin Auger",
+    "issuance_date": null,
+    "issuance_transaction": null,
+    "initial_supply": null,
+    "subsequent_issuance": null
+  },
+  "civic_context": {
+    "public_official": "Austin Auger",
+    "office": "Santa Paula Planning Commissioner",
+    "jurisdiction": "Santa Paula, California, United States",
+    "role_start": null,
+    "role_end": null
+  },
+  "legal_checkpoints": [
+    {
+      "law": "California AB 2409 (2026)",
+      "status": "unverified",
+      "notes": "Legal applicability requires verification of the asset's issuance facts, civic-office timeline, and other facts. This label does not make a legal conclusion."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AUGER is publicly identified as an asset associated with the account austinauger in historical SimpleDEX/XPR ecosystem data.",
+      "status": "verified",
+      "source": "Historical SimpleDEX/XPR ecosystem data",
+      "transaction": null,
+      "notes": "This is historical public-source evidence. Direct on-chain verification remains pending."
+    },
+    {
+      "claim": "AUGER's exact on-chain token contract/account has been independently verified.",
+      "status": "unverified",
+      "source": null,
+      "transaction": null,
+      "notes": "Pending direct XPR Network evidence."
+    },
+    {
+      "claim": "AUGER's exact creation transaction and timestamp have been independently verified.",
+      "status": "unverified",
+      "source": null,
+      "transaction": null,
+      "notes": "Pending direct XPR Network evidence."
+    },
+    {
+      "claim": "AUGER's initial supply has been independently verified from on-chain evidence.",
+      "status": "unverified",
+      "source": null,
+      "transaction": null,
+      "notes": "Pending direct XPR Network evidence."
+    },
+    {
+      "claim": "AUGER's subsequent issuance history has been independently verified.",
+      "status": "unverified",
+      "source": null,
+      "transaction": null,
+      "notes": "Pending direct XPR Network evidence."
+    }
+  ]
+}
